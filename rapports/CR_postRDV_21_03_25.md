@@ -15,6 +15,7 @@ PLDAC RL Tabulaire \- Bilan post RDV 21-03-2025
 
 * Revoir TME3 - Actor-critic corrigé
 * Implémenter les 4 fonctions suivantes pour l'algorithme Actor-critic :
+
 1°: $Q(s_t, a_t) ← Q(s_t, a_t) + alpha-critic [r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t)]$
 
 2°: $Q(s_t, a_t) ← Q(s_t, a_t) + alpha-critic [r_{t+1} + \gamma max_a Q(s_{t+1}, a) - max_a Q(s_t, a)]$
