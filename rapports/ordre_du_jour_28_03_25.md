@@ -9,7 +9,7 @@
 * (Observer les résultats avec la fonction make_mdp(), varier les hyperparamètres pour chacun des 4 cas)
 
 **Questions**
-
+* Relatives aux résultats attendus : il faut avoir varié les hyperparamètres... (observation de l'impacte des différents hyperparamètres, sur les 4 implémentations)
 
 **Remis**
 * /code/04_actor_critic_q_tables.ipynb
