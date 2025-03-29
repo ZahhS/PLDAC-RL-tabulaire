@@ -14,6 +14,6 @@
 * Renommer les quatre fonctions implémentées
 * Séparer le code de l'algorithme de la partie affichage dans plot_steps
 * Afficher le labyrinthe en cours et après entraînement (comme dans les premiers TME)
-* Afficher des retours du critic (cf. TME précédents pour l'exemple de l'actor)
+* Afficher les retours du critic (cf. TME précédents pour l'exemple de l'actor)
 * Coder la fonction de comparaison des valeurs renvoyées par le critic et l'actor
 * Tracer le nombre d'états "similaires" au fil des épisodes (cf the figure checklist)
