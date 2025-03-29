@@ -1,7 +1,7 @@
-PLDAC RL Tabulaire \- Bilan post RDV 28-03-2025
+**PLDAC RL Tabulaire \- Bilan post RDV 28-03-2025**
 
 
-Sujets abordés durant la réunion : 
+**Sujets abordés durant la réunion :** 
 
 - Débogage du code implémenté
 - Validation des implémentations
