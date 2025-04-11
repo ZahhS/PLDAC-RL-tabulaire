@@ -1,4 +1,4 @@
-# Ordre du Jour - Comparaison des versions (Semaine dernière vs. cette semaine)
+# Ordre du Jour - 11/04/2025
 
 ## 1. Amélioration des Critic Update Rules
 - Ajustement des paramètres de stagnation :
