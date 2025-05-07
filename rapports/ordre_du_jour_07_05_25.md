@@ -7,6 +7,7 @@
 
 
 **A Faire** 
+* correction du bug d'apprentissage de l'agent
 * Nettoyer le notebook final
 * Préparer la presentation
 * Travail sur une éventuelle autre piste (à discuter)
