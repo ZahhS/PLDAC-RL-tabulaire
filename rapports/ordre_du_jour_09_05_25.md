@@ -3,7 +3,7 @@
 ---
 
 ### 1. Contexte et Objectif
-Aujourd’hui, l’objectif était de faire fonctionner correctement notre implémentation Actor-Critic tabulaire, en testant quatre règles de mise à jour du critique (SARSA, Q-learning max, Mean SARSA, Q-learning standard). Les courbes du nombre d’étapes par épisode devaient décroître pour indiquer l’apprentissage, ce qui n’était pas le cas initialement.
+Aujourd’hui, l’objectif était de faire fonctionner correctement notre implémentation Actor-Critic tabulaire, en testant nos quatre règles de mise à jour du critique (SARSA, Q-learning max, Mean SARSA, Q-learning standard). Les courbes du nombre d’étapes par épisode devaient décroître pour indiquer l’apprentissage, ce qui n’était pas le cas initialement.
 
 ---
 
@@ -36,10 +36,7 @@ Aujourd’hui, l’objectif était de faire fonctionner correctement notre impl�
 4.  **Boucle d’épisode**
     Gestion explicite de `terminated` et `truncated` avec un maximum de 500 pas, évitant les boucles infinies.
 
-5.  **Implémentation des règles du professeur**
-    Fonctions distinctes (`sarsa_update`, `q_learning_max_update`, etc.) reprenant fidèlement les formules fournies.
-
-6.  **Ajout de la trace des récompenses**
+5.  **Ajout de la trace des récompenses**
     En plus du nombre d’étapes, on trace la récompense cumulée par épisode pour valider l’amélioration de la politique.
 
 ### 4\. Résultats
@@ -50,7 +47,7 @@ Aujourd’hui, l’objectif était de faire fonctionner correctement notre impl�
 ### 5\. Prochaines étapes
 
   - Effectuer des comparaisons statistiques (tests t) entre les méthodes.
-  - Étudier l’influence des hyperparamètres (α\<sub\>critic\</sub\>, α\<sub\>actor\</sub\>, ε).
+  - Étudier l’influence des hyperparamètres (α<sub>critic</sub>, α<sub>actor</sub>, ε)
   - Préparer la documentation et la présentation finale.
 
 ```
