@@ -1,8 +1,5 @@
 ## Rapport du Jour - Avancement Actor-Critic Q-Tables
 
-**Date :** 8 mai 2025
-**Projet :** Actor-Critic tabulaire avec Q-tables (Master 1 Informatique)
-
 ---
 
 ### 1. Contexte et Objectif
