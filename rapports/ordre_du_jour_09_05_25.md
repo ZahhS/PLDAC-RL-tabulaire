@@ -39,12 +39,23 @@ Aujourd’hui, l’objectif était de faire fonctionner correctement notre impl�
 5.  **Ajout de la trace des récompenses**
     En plus du nombre d’étapes, on trace la récompense cumulée par épisode pour valider l’amélioration de la politique.
 
-### 4\. Résultats
+### 4\. Les visualisations ajoutées
+
+1. **Grid-search α vs ε**  
+   Heatmaps montrant la récompense moyenne finale (10 derniers épisodes) pour chaque combinaison de (α, ε) et pour chaque règle de critic, afin d’identifier visuellement les hyperparamètres optimaux.
+
+2. **Sample Efficiency**  
+   Diagramme en barres indiquant le nombre d’épisodes nécessaires pour atteindre 80 % de la récompense maximale, comparant la rapidité d’apprentissage des quatre méthodes.
+
+3. **Entropie de la politique**  
+   Courbes lissées de l’entropie moyenne de la politique épisode par épisode, illustrant le passage progressif de l’exploration à l’exploitation pour chaque règle.  
+
+### 5\. Résultats
 
   - **Étapes par épisode** : toutes les courbes décroissent désormais, confirmant l’apprentissage.
   - **Récompense cumulée** : progression régulière, validant l’efficacité de la politique.
 
-### 5\. Prochaines étapes
+### 6\. Prochaines étapes
 
   - Effectuer des comparaisons statistiques (tests t) entre les méthodes.
   - Étudier l’influence des hyperparamètres (α<sub>critic</sub>, α<sub>actor</sub>, ε)
